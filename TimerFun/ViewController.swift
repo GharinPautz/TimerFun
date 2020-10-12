@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     @IBAction func startButtonPressed(_ sender: UIButton) {
         print("Start pressed")
         if timer == nil {
-            startTimer()
+            startTimer()
         }
     }
     
