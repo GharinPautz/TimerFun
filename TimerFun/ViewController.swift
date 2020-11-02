@@ -42,6 +42,7 @@ class ViewController: UIViewController {
     
     func stopTimer() {
         timer?.invalidate() // optional chaining
+        timer = nil
     }
     
     @IBAction func startButtonPressed(_ sender: UIButton) {
